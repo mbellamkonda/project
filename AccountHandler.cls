@@ -1,9 +1,7 @@
 public class AccountHandler {
-
- public void validateProviderandFax(List < Account > lstAccount, map < id, Account > triggerOldMap, string action) {
+public void validateProviderandFax(List < Account > lstAccount, map < id, Account > triggerOldMap, string action) {
   set < string > setNPA = new set < string > ();
   set < string > setFax = new set < string > ();
-
   string recordTypePROVIDER = CommanClass.findRecordTypeForOrderProduct('Account', 'Providers');
   string recordTypePHARMACY = CommanClass.findRecordTypeForOrderProduct('Account', 'Pharmacy');
 
@@ -25,8 +23,6 @@ public class AccountHandler {
 
    }
   }
-
-
   if (action == 'update') {
        for (Account oAccount: lstAccount) {
        
@@ -91,9 +87,7 @@ public class AccountHandler {
    }
   }
 
-
  }
 }
-
-
 //=======================
+//================from remote
