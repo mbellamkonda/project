@@ -1,4 +1,4 @@
-/* Written by Venugopal R*/
+/* Written by maheshkumar*/
 
 global class AMAGBatchCreatePAPCOCUIQSTask implements Database.Batchable<Contact>{  
 
